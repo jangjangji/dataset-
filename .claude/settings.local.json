@@ -4,7 +4,11 @@
       "WebFetch(domain:www.data.go.kr)",
       "Bash(curl:*)",
       "Bash(git init:*)",
-      "Bash(git remote add:*)"
+      "Bash(git remote add:*)",
+      "Bash(npm run build:*)",
+      "Bash(psql:*)",
+      "Bash(timeout 180 npm run dev:*)",
+      "Bash(tee:*)"
     ]
   }
 }
