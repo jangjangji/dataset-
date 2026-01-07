@@ -1,0 +1,26 @@
+{
+  "name": "korea-travel-data-collector",
+  "version": "1.0.0",
+  "description": "한국관광공사 API 데이터 수집 및 PostgreSQL 저장",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "collect": "ts-node src/index.ts"
+  },
+  "keywords": ["tourism", "korea", "postgresql", "data-collection"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "pg": "^8.11.0",
+    "dotenv": "^16.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/pg": "^8.10.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
